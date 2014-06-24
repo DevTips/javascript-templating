@@ -1,23 +1,22 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Folders
-_obj
-_test
+# Icon must end with two \r
+Icon
 
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
 
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
+# Thumbnails
+._*
 
-_testmain.go
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
-*.exe
-*.test
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
