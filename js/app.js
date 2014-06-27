@@ -9,7 +9,7 @@ function playerCard() {
 
     var $this = $(this),
         playerName = $this.text(),
-        playerNameImg = playerName.replace(/\s+/g, '-').toLowerCase(),
+        playerNameImg = playerName.replace(/\s+/g, '-'),
         playerHeight = $this.data('height'),
         playerWeight = $this.data('weight'),
         playerPlace = $this.data('place');
